@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: url('Flyers-Writing-Skills-Page-12.-title.png');
+    background-position: center; 
+    
+    /* background-image: linear-gradient(to right top, #7a911c, #072777, #25b312, #576ac8, #646fc7);} */
+
+.container {
+    background-image: linear-gradient(to right top, #044f58, #29bfb5, #0b1e62, #65bde3, #0574d5);    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+h1 {
+    color: #040e51;
+    margin-bottom: 20px;
+}
+
+#quote {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #ece2e8;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    resize: none;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+textarea:disabled {
+    background-color: #f7f7f7;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    background-color: #4caf50;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.results {
+    margin-top: 20px;
+}
+
+.results p {
+    font-size: 1.1em;
+    color: #f2eded;
+    margin: 10px 0;
+}
